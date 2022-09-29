@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.83f8ea13.css",
+    "main.js": "/static/js/main.64390352.js",
+    "static/js/787.a5fa54f9.chunk.js": "/static/js/787.a5fa54f9.chunk.js",
+    "static/media/yum_react6.gif": "/static/media/yum_react6.c086bcc4d7c362a95510.gif",
+    "static/media/myphoto.jpg": "/static/media/myphoto.35d9854b366f59774ec3.jpg",
+    "static/media/bgr3.png": "/static/media/bgr3.86ffe1ea7d35619e6b7d.png",
+    "static/media/bgr-green.png": "/static/media/bgr-green.a03e6cd3eca8e2d6a399.png",
+    "static/media/game_shop_java.jpg": "/static/media/game_shop_java.afbdb9180070c5dea4ba.jpg",
+    "static/media/gedata.jpg": "/static/media/gedata.d891c5f82f51e64417a4.jpg",
+    "static/media/tools.png": "/static/media/tools.5d5b7e3ca21a581c7ff8.png",
+    "static/media/java4.png": "/static/media/java4.53ef1668cdfae14978ef.png",
+    "static/media/mern4.png": "/static/media/mern4.bad8fd699b3a40c5500c.png",
+    "static/media/python4.png": "/static/media/python4.c47b0bb296dbc9dc90f0.png",
+    "static/media/creative2.png": "/static/media/creative2.ac2eaeb2e68ee567a7a2.png",
+    "index.html": "/index.html",
+    "main.83f8ea13.css.map": "/static/css/main.83f8ea13.css.map",
+    "main.64390352.js.map": "/static/js/main.64390352.js.map",
+    "787.a5fa54f9.chunk.js.map": "/static/js/787.a5fa54f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83f8ea13.css",
+    "static/js/main.64390352.js"
+  ]
+}

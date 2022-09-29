@@ -1,0 +1,335 @@
+body {
+  background-color: black;
+  /* background-image: linear-gradient(rgb(0, 6, 194), rgb(176, 6, 232)); */
+  font-family: 'Bahnschrift', 'Poppins';
+  margin: 0;
+} 
+
+.main {
+  color: black;
+  /*color: rgb(124, 1, 112);*/
+  
+}
+
+#hi {
+  color: rgb(39, 39, 213);
+  margin: 0 auto;
+}
+
+.bgr {
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.header {
+text-align: center;
+margin: 0 auto;
+/* border: 3px solid red; */
+}
+
+.name-text {
+  font-size: 120px;
+ /* background: -webkit-linear-gradient(rgb(169, 5, 206), rgb(16, 49, 212));*/
+  background: -webkit-linear-gradient(rgb(136, 208, 207), rgb(39, 39, 213));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Zen Tokyo Zoo', 'Poppins', cursive;
+  /*position: sticky;
+  top: 0;*/
+
+}
+
+#prf {
+  width: 100%;
+}
+
+.description {
+  background: url("./static/bgr-green.png");
+  background-size: 100%;
+
+
+  align-items: center;
+  width: 80%;
+  /* height: 500px; */
+  /* border: 3px solid white; */
+  display: grid;
+  grid-template-columns: 55% 45%;
+  /* width: 100%; */
+  margin: 30px auto;
+  padding: 10px;
+  /*background-color: rgb(0, 0, 0, 0.7);*/
+}
+
+
+
+#desc-title {
+  background: -webkit-linear-gradient(#fae48c,#e8811b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* border: 3px solid yellow; */
+  text-align: center;
+  font-size: 80px;
+  margin: 0 auto;
+  /* width: 1100px; */
+  text-align: left;
+}
+
+#desc-proficiency {
+  color: #fffefb;
+    /* width: 1100px; */
+  text-align: left;
+  /* border: 3px solid green; */
+  margin: 0 auto;
+font-family: 'Cormorant Garamond', serif;
+font-size: 30px;
+
+}
+
+.desc-background {
+  background: url("./static/bgr3.png");
+  background-size: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.description2 {
+  height: 1000px;
+  background: url("./static/tools.png");
+  background-size: 100%;
+  /* place-content: center; */
+  place-content: center;
+  /* border: 3px solid white; */
+  display: grid;
+  /* grid-template-columns: 33% 33% 33%; */
+  /* width: 100%; */
+  /* font-size: 50px; */
+  /*background-color: rgb(0, 0, 0, 0.7);*/  
+}
+
+
+
+.desc2-title{
+  /* background-image: linear-gradient(to top right, #d6e9e3, #00ffae); */
+   background-image: linear-gradient(to top right, #01FE3E, #b2fbc3);
+  
+  /*  text-transform: uppercase; */
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 80px;
+  /* background-image: linear-gradient(to top left, red,orange,yellow,green,blue,indigo,violet); */
+
+
+  
+    text-transform: uppercase;
+   /* background-image: linear-gradient(
+     -225deg,
+     #231557 0%,
+     #44107a 29%,
+     #ff1361 67%,
+     #fff800 100%
+   );
+   background-size: auto auto;
+   background-clip: border-box;
+   background-size: 200% auto;
+   color: #fff;
+   background-clip: text;
+   text-fill-color: transparent;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: textclip 2s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  } */
+}
+
+
+
+.desc2-title:hover {
+  /* background-image: linear-gradient(to top right, #fafe01, #fbfab2); */
+  background-image: linear-gradient(to top right, red,orange,yellow,green,blue,indigo,violet);
+
+}
+
+.creative-block{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-image: linear-gradient(to right, #01FE3E, black); 
+  margin: 40px 0;
+
+
+}
+
+.creative-block img {
+  height: 150px;
+  justify-self: center;
+}
+
+.and-creative {
+  line-height: 80%;
+  font-size: 75px;
+  text-shadow: 5px 5px rgb(202, 120, 202);
+
+}
+
+
+
+
+
+
+
+.description3 {
+  align-items: center;
+  width: 80%;
+  /* border: 3px solid white; */
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 20px;
+  /* width: 100%; */
+  font-size: 50px;
+  margin: 0 auto;
+  /*background-color: rgb(0, 0, 0, 0.7);*/
+}
+
+.life-mis {
+  background: -webkit-linear-gradient(#ffe993,#eb831c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* border: 3px solid yellow; */
+  font-size: 70px;
+  margin: 0 auto;
+  /* width: 1100px; */
+  text-transform: uppercase;
+
+}
+
+
+
+.my-photo img{
+  height: 1500px;
+
+}
+
+.icons {  
+  /* text-align: center; */
+  /* border: 3px solid blue;*/
+  margin-top: 40px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.icon {
+  height: 200px;
+  width: 200px;
+  border: 3px solid #ffe993;
+  margin-top:  -40px;
+  border-radius: 10px;
+  animation-name: moving;
+  animation-duration: 4s;
+}
+
+.icon:hover {
+  box-shadow: 0 0 24px #ffe993;
+  border: 3px solid rgb(82, 183, 255);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#projects{ /*almost the same as name*/
+  line-height: 95%;
+  font-size: 100px;
+  background: -webkit-linear-gradient(rgb(136, 208, 207), rgb(39, 39, 213));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Bungee Shade', cursive;
+}
+
+
+/* .icon {
+  height: 200px;
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 30px 30px;
+  animation-name: moving;
+  animation-duration: 2s;
+} */
+
+
+#java-icon {
+  justify-self: center;
+  /* -webkit-filter: drop-shadow(2px 2px 8px #fae48c);
+  filter: drop-shadow(2px 2px 8px #fae48c); */
+}
+
+#mern-icon {
+  justify-self: end;
+}
+
+
+@keyframes moving{
+  from{
+    opacity: 0;
+    margin: -20px -50px -30px -200px;
+    }
+  to {
+    visibility: visible;
+  }
+}
+
+.skills {
+  margin: 10px 0;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 80%;
+  color: black;
+  background: -webkit-linear-gradient(rgb(136, 208, 207), rgb(39, 39, 213));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#crt {
+  width: 100%;
+}
+
+.projects {
+  display: grid;
+  grid-template: auto auto / auto auto;
+  /* border: 3px solid white; */
+}
+
+.project {
+  margin: 20px;
+  font-family: 'Quicksand', 'Poppins', sans-serif;
+  font-size: 30px;
+  color: silver;
+}
+
+.project img {
+  width: 100%;
+}
+
+.contact {
+  margin: 20px 0;
+  font-family: 'Quicksand', 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: silver;
+}
+
+@media only screen and (max-width: 600px) {
+.main {
+  display: grid;
+  grid-template-rows: 9;
+  width: 100vh;
+}
+
+.description {
+  width: 600px;
+}
+
+}
+
